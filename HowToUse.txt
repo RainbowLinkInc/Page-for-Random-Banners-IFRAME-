@@ -20,9 +20,9 @@ Download this file and put into '/wp-content/plugins/page-for-random-banners/tem
 
 - How to Use this template
 
-(1) Create iframe-content-pages by using this template.
+(1) At the WordPress "Page for Random Banners" screen,  by using this template, create iframe-content-pages.
 
-(2) Create an iframe-page by using your normal tempalte ( example: single.php ) like this: 
+(2) At the WordPress POST/PAGE/any screen, by using your normal tempalte ( example: single.php ), create an iframe-page like this: 
 
 <h3>A city</h3>
 <iframe src="http://***.com/your-iframe-content-page-1.php" class="links_iframe"></iframe>
@@ -33,4 +33,4 @@ Download this file and put into '/wp-content/plugins/page-for-random-banners/tem
 <h3>C city</h3>
 <iframe src="http://***.com/your-iframe-content-page-3.php" class="links_iframe"></iframe>
 
-(3) Create a CSS for the class, 'links_iframe'. ( sample: 'links_iframe.css' in this repository )
+(3) At your wordpress active theme's directory, create a CSS for the class, 'links_iframe'. ( sample: 'links_iframe.css' in this repository )

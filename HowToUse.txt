@@ -1,0 +1,36 @@
+/*=======================================
+       Page for Random Banners 
+       'single-pfrb_IFRAME.php'
+=======================================*/
+
+'single-pfrb_IFRAME.php' is a template for "Page for Random Banners", a Wordpress Plugin which we created.
+
+- "Page for Random Banners"
+https://wordpress.org/plugins/page-for-random-banners/
+
+- All About "Page for Random Banners"
+http://www.rainbow-link.com/rainbowlink_inc_s_catalogue.htm?&item_no=RLF15&medialink_id=GH
+
+- How to Install this template
+Download this file and put into your wordpress active theme's directory.
+
+- How to Back Up this template
+Download this file and put into '/wp-content/plugins/page-for-random-banners/templates'.
+
+
+- How to Use this template
+
+(1) Create iframe-content-pages by using this template.
+
+(2) Create an iframe-page by using your normal tempalte ( example: single.php ) like this: 
+
+<h3>A city</h3>
+<iframe src="http://***.com/your-iframe-content-page-1.php" class="links_iframe"></iframe>
+<br>
+<h3>B city</h3>
+<iframe src="http://***.com/your-iframe-content-page-2.php" class="links_iframe"></iframe>
+<br>
+<h3>C city</h3>
+<iframe src="http://***.com/your-iframe-content-page-3.php" class="links_iframe"></iframe>
+
+(3) Create a CSS for the class, 'links_iframe'. ( sample: 'links_iframe.css' in this repository )

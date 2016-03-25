@@ -28,9 +28,9 @@ endwhile;
 <meta charset="UTF-8">
 <title><?php echo $wppfrb_page_title;  ?></title>
 <meta name="ROBOTS" content="index" />
-<!-- WordPress Style Sheet | This file (single-prfb_IFRAME.php) has already been copied from the dir:/wp-content/plugins/page-for-random-banners/templates to your active-theme-dir by YOU, so this file can display your active-theme's stylesheet. -->
+<!-- WordPress Style Sheet | This file (single-prfb_IFRAME.php) has already been copied from the GitHub repository to your active-theme-dir by YOU, so this file can display your active-theme's stylesheet. -->
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>" />
-<!-- Page for Random Banners Style Sheet | If you use a stand-aline Style Sheet for this page, copy 'banners_page.css' from the dir:/wp-content/plugins/page-for-random-banners/example to your active-theme-dir.-->
+<!-- Page for Random Banners Style Sheet | If you use a stand-aline Style Sheet for this page, copy 'banners_page.css' from the GitHub repository to your active-theme-dir.-->
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/banners_page.css" />
 </head>
 <body>
